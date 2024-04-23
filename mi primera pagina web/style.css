@@ -1,0 +1,216 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+/* Estilo para el header */
+.up {
+    display: flex; /* Usamos flexbox para controlar la disposición de los elementos internos */
+    align-items: center; /* Centramos verticalmente los elementos */
+    background-image: url('./imagenes/fondos/rastafriki.jpg');
+    background-repeat: initial;
+    padding: 10px; /* Añadimos un poco de espacio alrededor de los elementos */
+}
+
+/* Estilo para la imagen */
+.escudofondorojo {
+    width: 200px;
+}
+
+/* Estilo para el título h1 */
+.tit1 {
+    color: #ffffff;
+    flex-grow: 1; /* Permite que el título h1 ocupe todo el espacio restante */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+/* Estilo para el título h2 */
+.tit2 {
+    color: #ffffff;
+}
+
+/* Estilo para la navegación */
+.navi {
+    margin-top: auto; /* Mueve la navegación hacia abajo */
+}
+
+/* Estilo para los elementos de la navegación */
+.navi li {
+    display: block; /* Cambiamos a bloque para que cada elemento esté en una línea */
+    margin-bottom: 10px; /* Añadimos un poco de espacio entre los elementos */
+}
+/* Estilo para los elementos de la navegación */
+.navi a {
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none; /* Quitamos el subrayado del enlace */
+}
+/* Estilo para el hover */
+.navi a:hover {
+    color: #ff0000; /* Cambia el color al pasar el cursor sobre el enlace */
+}
+body{
+    background-color: #e8e8e8;
+}
+/*main home*/
+.home{
+    width: 100%;
+}
+.tit{
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+/*aside home*/
+.next img{
+    width: 200px;
+    display: flex;
+}
+.next{
+    display: flex;
+
+}
+/*section home*/
+.jdls {
+    display: block; /* Cambiado a display block */
+    margin: 0 auto; /* Centrar horizontalmente */
+    max-width: 100%; /* Para asegurarse de que la imagen no exceda su contenedor */
+}
+.goleadores {
+    text-align: center; /* Para centrar el texto y las imágenes dentro del contenedor */
+}
+/* Estilo para los contenedores de puestos */
+.puestos {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente los contenedores de puestos */
+    margin-top: 20px; /* Espacio superior para separar del contenido superior */
+}
+
+/* Estilo para las imágenes dentro de los contenedores de puestos */
+.puestos img {
+    max-width: 100%; /* Para asegurarse de que las imágenes no excedan su contenedor */
+    height: auto; /* Mantener la proporción de aspecto */
+}
+
+/* Estilo para los contenedores de puestos individuales */
+.primerpuesto,
+.segundopuesto,
+.tercerpuesto {
+    margin: 0 10px; /* Espacio horizontal entre los contenedores de puestos */
+    max-width: 100%; /* Para asegurarse de que los contenedores no excedan su contenedor padre */
+    text-align: center; /* Centrar el contenido dentro de los contenedores */
+    display: inline-block; /* Cambiado a inline-block para que los contenedores se ajusten al contenido */
+}        
+/*main galery*/
+
+.galery{    
+    display:flexbox;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.galery a img{
+    display: inline-block;
+    justify-content: center;
+    height: 220px;
+    border-radius: 5%;
+    box-shadow: 5px 12px 18px black;
+    margin: 20px;
+}
+/* Estilo para el carrusel */
+.carousel-inner img {
+    width: 100%; /* Hacer que las imágenes ocupen todo el ancho del carrusel */
+    height: auto; /* Mantener la proporción de aspecto */
+}
+
+/* Ajuste para el carrusel de Bootstrap */
+.carousel {
+    width: 100%; /* Hacer que el carrusel ocupe todo el ancho disponible */
+}
+
+/* Estilo para las secciones de galería */
+.galerias section {
+    margin-bottom: 20px; /* Espaciado entre cada sección de galería */
+}
+/* Estilo para las imágenes dentro de la sección de la galería */
+.galerias img {
+    width: auto; /* Hacer que las imágenes ocupen todo el ancho disponible */
+    height: 250px; /* Mantener la proporción de aspecto */
+}
+/*main indumentaria*/
+.muestras{
+    display: flex;
+    justify-content: center;
+}
+.muestras img{
+    display: inline-block;
+    justify-content: center;
+    height: 220px;
+    border-radius: 5%;
+    box-shadow: 5px 12px 18px black;
+    margin: 20px;
+}
+
+.galerias img{
+height: 220px;}
+
+/*main sponsors*/
+.sponsors img{
+        display: inline-block;
+        justify-content: center;
+        height: 220px;
+        border-radius: 5%;
+        box-shadow: 5px 12px 18px black;
+        margin: 20px;
+}
+/*main inscribirse*/
+.tabla tr th{
+    border: 1px solid black;
+}
+.tabla tr td{
+    border: 1px solid black;
+}
+/*footer*/
+.pie p{
+    background-color: #2ed32e;
+}
+.pie a{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+.redes{
+    display: flex;
+    align-content: space-around;
+}
+.pie redes a img{
+    width: 500px;
+}
+.pie a img{
+    display: flex;
+    text-align: center;
+    width: 100px;
+    height: auto;
+    
+}
+.pie{
+    background-image: url('./imagenes/fondos/rastafriki.jpg');
+    background-repeat: initial;
+}
+.imgfoot img{
+    display: flex;
+    display: inline-block;
+    margin: auto;
+    justify-content: space-between;
+    height: 200px;
+    
+}
+.imgfoot{
+    display: flex;
+    align-content: space-around;
+}
+
+/* media queries*/
